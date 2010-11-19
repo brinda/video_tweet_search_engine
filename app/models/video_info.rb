@@ -5,6 +5,7 @@ class VideoInfo
     @title = data[:title]
     @embed_link = data[:embed_link]
     @thumbnail_image_url = data[:thumbnail_image_url]
+    @you_tube_link = data[:you_tube_link]
   end
 
   def self.find(url)
